@@ -16,7 +16,9 @@
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#000000"
+    >
 
     <RelativeLayout
             android:layout_width="match_parent"
@@ -39,17 +41,21 @@
                 android:layout_centerHorizontal="true">
             <Button
                     android:id="@+id/save"
+                    android:background="@drawable/apptheme_btn_default_holo_light"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:text="@string/crop_save_text"
+                    android:textColor="#FFFFFF"
             />
             <Button
                     android:id="@+id/discard"
+                    android:background="@drawable/apptheme_btn_default_holo_light"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:text="@string/crop_discard_text"
+                    android:textColor="#FFFFFF"
             />
         </RelativeLayout>
     </RelativeLayout>
