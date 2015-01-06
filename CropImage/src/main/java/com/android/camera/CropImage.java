@@ -104,9 +104,7 @@ public class CropImage extends MonitoredActivity {
         // - https://code.google.com/p/android/issues/detail?id=20474
         // - https://github.com/lvillani/android-cropimage/issues/20
         //
-        if (Build.VERSION.SDK_INT > 10 && Build.VERSION.SDK_INT < 16) { // >= Gingerbread && < Jelly Bean
-            mImageView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        }
+        mImageView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
 
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
