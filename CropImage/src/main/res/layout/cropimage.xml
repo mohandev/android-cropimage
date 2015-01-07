@@ -44,16 +44,19 @@
                     android:background="@drawable/apptheme_btn_default_holo_light"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
                     android:text="@string/crop_save_text"
                     android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
             />
             <Button
                     android:id="@+id/discard"
                     android:background="@drawable/apptheme_btn_default_holo_light"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="18sp"
                     android:text="@string/crop_discard_text"
                     android:textColor="#FFFFFF"
             />
